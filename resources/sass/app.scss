@@ -1,10 +1,11 @@
-//
-
-
 
 // Variables
 @import "global";
 
+//landing components
+
+@import "./../views/components/header/header";
+@import "./../views/components/footer/footer";
 
 //Landing page
 @import "./../views/pages/nomer-content/nomer-content";
