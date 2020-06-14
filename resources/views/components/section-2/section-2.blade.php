@@ -9,7 +9,30 @@
                     </div>
                 </div>
                 <div class="advantages-description">
+                    <div class="advantages-description_item">
+                        <img class="advantages-description_image _1" src="/images/times-square.png" alt="times-square">
 
+                        <div class="advantages-description_text">
+                            <h3 class="advantages-description_title">Lorem Ipsum</h3>
+                            <p class="advantages-description_subtitle"></p>
+                        </div>
+                    </div>
+                    <div class="advantages-description_item">
+                        <img class="advantages-description_image _2" src="/images/document.png" alt="document">
+
+                        <div class="advantages-description_text">
+                            <h3 class="advantages-description_title">Lorem Ipsum</h3>
+                            <p class="advantages-description_subtitle"></p>
+                        </div>
+                    </div>
+                    <div class="advantages-description_item">
+                        <img class="advantages-description_image _3" src="/images/business-and-finance.png" alt="business-and-finance">
+
+                        <div class="advantages-description_text">
+                            <h3 class="advantages-description_title">Lorem Ipsum</h3>
+                            <p class="advantages-description_subtitle"></p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
