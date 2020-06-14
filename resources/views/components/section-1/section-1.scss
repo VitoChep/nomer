@@ -13,30 +13,40 @@
         width: 100%;
         height: 100vh;
         background-image: url(/images/two-cars.png);
-
-        //&.left {
-        //    width: 60%;
-        //
-        //    background-position: left;
-        //}
-        //
-        //&.right {
-        //    width: 40%;
-        //    background-image: url(/images/car2.png);
-        //    background-position: center;
-        //}
     }
 
-}
-
-.Прямоугольник_22 {
-    background-color: rgb(233, 233, 233);
-
-
-    .Прямоугольник_27_копия {
-        background-color: rgb(23, 44, 66);
-
+    .management {
+        position: relative;
+        top: 98px;
     }
 
+    .management-buttons {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        max-width: fit-content;
 
+        .management-btn {
+            height: 118px;
+
+            display: flex;
+            align-items: center;
+
+            font-size: 22px;
+            line-height: 24px;
+            font-weight: 800;
+
+            background-color: transparent;
+            padding: 0 18px;
+            cursor: pointer;
+
+            &:not(:last-of-type) {
+                margin-right: 30px;
+            }
+
+            &.mod-active {
+                background-color: #ff213b;
+            }
+        }
+    }
 }
