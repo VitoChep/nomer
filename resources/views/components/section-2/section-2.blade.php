@@ -14,7 +14,10 @@
 
                         <div class="advantages-description_text">
                             <h3 class="advantages-description_title">Lorem Ipsum</h3>
-                            <p class="advantages-description_subtitle"></p>
+                            <p class="advantages-description_subtitle">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do&nbsp;eiusmod tempor incididunt ut&nbsp;labore et&nbsp;dolore
+                                magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+                                accumsan lacus vel facilisis.</p>
                         </div>
                     </div>
                     <div class="advantages-description_item">
@@ -22,15 +25,18 @@
 
                         <div class="advantages-description_text">
                             <h3 class="advantages-description_title">Lorem Ipsum</h3>
-                            <p class="advantages-description_subtitle"></p>
+                            <p class="advantages-description_subtitle">Lorem ipsum dolor sit amet, consectetur
+                                adipisc-</p>
                         </div>
                     </div>
                     <div class="advantages-description_item">
-                        <img class="advantages-description_image _3" src="/images/business-and-finance.png" alt="business-and-finance">
+                        <img class="advantages-description_image _3" src="/images/business-and-finance.png"
+                             alt="business-and-finance">
 
                         <div class="advantages-description_text">
                             <h3 class="advantages-description_title">Lorem Ipsum</h3>
-                            <p class="advantages-description_subtitle"></p>
+                            <p class="advantages-description_subtitle">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do&nbsp;eiusmod tempor incidi-</p>
                         </div>
                     </div>
                 </div>

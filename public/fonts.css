@@ -11,20 +11,29 @@
 
 @font-face {
     font-family: 'FiraSans';
-    src: url('/fonts/FiraSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/FiraSans-ExtraBold.woff') format('woff'),
-         url('/fonts/FiraSans-ExtraBold.ttf')  format('truetype'),
-         url('/fonts/FiraSans-ExtraBold.svg#FiraSans-ExtraBold') format('svg');
+    src:         url('/fonts/FiraSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+                 url('/fonts/FiraSans-ExtraBold.woff') format('woff'),
+                 url('/fonts/FiraSans-ExtraBold.ttf') format('truetype'),
+                 url('/fonts/FiraSans-ExtraBold.svg#FiraSans-ExtraBold') format('svg');
     font-weight: 800;
-    font-style: normal;
+    font-style:  normal;
 }
 
 @font-face {
     font-family: 'FiraSans';
-    src: url('/fonts/FiraSans-Black.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/FiraSans-Black.woff') format('woff'),
-         url('/fonts/FiraSans-Black.ttf')  format('truetype'),
-         url('/fonts/FiraSans-Black.svg#FiraSans-Black') format('svg');
+    src:         url('/fonts/FiraSans-Black.eot?#iefix') format('embedded-opentype'),
+                 url('/fonts/FiraSans-Black.woff') format('woff'),
+                 url('/fonts/FiraSans-Black.ttf') format('truetype'),
+                 url('/fonts/FiraSans-Black.svg#FiraSans-Black') format('svg');
     font-weight: 900;
-    font-style: normal;
+    font-style:  normal;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src:         url('/fonts/MullerLight.woff2') format('woff2'),
+                 url('/fonts/MullerLight.woff') format('woff'),
+                 url('/fonts/MullerLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style:  normal;
 }
