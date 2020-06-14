@@ -9,19 +9,22 @@
     .background-image {
         background-size: cover;
         background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
         height: 100vh;
+        background-image: url(/images/two-cars.png);
 
-        &.left {
-            width: 60%;
-            background-image: url(/images/car1.png);
-            background-position: left;
-        }
-
-        &.right {
-            width: 40%;
-            background-image: url(/images/car2.png);
-            background-position: center;
-        }
+        //&.left {
+        //    width: 60%;
+        //
+        //    background-position: left;
+        //}
+        //
+        //&.right {
+        //    width: 40%;
+        //    background-image: url(/images/car2.png);
+        //    background-position: center;
+        //}
     }
 
 }

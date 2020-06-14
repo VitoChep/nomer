@@ -2,10 +2,10 @@
     @include('components.header.header')
 
     <div class="background-wrapper">
-        <div class="background-image left"></div>
-        <div class="background-image right"></div>
-        <div class="management container">
+        <div class="background-image">
+            <div class="management container">
 
+            </div>
         </div>
     </div>
 </section>
