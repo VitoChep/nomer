@@ -13,7 +13,8 @@
                         <img class="advantages-description_image _1" src="/images/times-square.png" alt="times-square">
 
                         <div class="advantages-description_text">
-                            <h3 class="advantages-description_title">Lorem Ipsum</h3>
+                            <h3 class="advantages-description_title">
+                                Lorem Ipsum</h3>
                             <p class="advantages-description_subtitle">Lorem ipsum dolor sit amet, consectetur
                                 adipiscing elit, sed do&nbsp;eiusmod tempor incididunt ut&nbsp;labore et&nbsp;dolore
                                 magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
@@ -24,7 +25,9 @@
                         <img class="advantages-description_image _2" src="/images/document.png" alt="document">
 
                         <div class="advantages-description_text">
-                            <h3 class="advantages-description_title">Lorem Ipsum</h3>
+                            <h3 class="advantages-description_title">
+                                Lorem Ipsum</h3>
+                            <span></span>
                             <p class="advantages-description_subtitle">Lorem ipsum dolor sit amet, consectetur
                                 adipisc-</p>
                         </div>
@@ -34,7 +37,9 @@
                              alt="business-and-finance">
 
                         <div class="advantages-description_text">
-                            <h3 class="advantages-description_title">Lorem Ipsum</h3>
+                            <h3 class="advantages-description_title">
+                                Lorem Ipsum</h3>
+                            <span></span>
                             <p class="advantages-description_subtitle">Lorem ipsum dolor sit amet, consectetur
                                 adipiscing elit, sed do&nbsp;eiusmod tempor incidi-</p>
                         </div>
