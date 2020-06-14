@@ -12,7 +12,7 @@
 <body>
 
 @include('sprite')
-@include('components.header.header')
+{{--@include('components.header.header')--}}
 
 <main>
     @include('components.section-1.section-1')

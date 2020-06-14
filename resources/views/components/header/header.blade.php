@@ -1,5 +1,5 @@
 <header>
-    <div class="main-wrapper">
+    <div class="main-wrapper position-wrapper">
         <div class="header-content container">
             <img class="header-logo" src="images/header-logo.png" alt="logo">
 

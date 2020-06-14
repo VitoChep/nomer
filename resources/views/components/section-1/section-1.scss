@@ -1,3 +1,39 @@
-.section-1{
+.section-1 {
+
+    .background-wrapper {
+        display: flex;
+        position: relative;
+        top: -98px;
+    }
+
+    .background-image {
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+
+        &.left {
+            width: 60%;
+            background-image: url(/images/car1.png);
+            background-position: left;
+        }
+
+        &.right {
+            width: 40%;
+            background-image: url(/images/car2.png);
+            background-position: center;
+        }
+    }
+
+}
+
+.Прямоугольник_22 {
+    background-color: rgb(233, 233, 233);
+
+
+    .Прямоугольник_27_копия {
+        background-color: rgb(23, 44, 66);
+
+    }
+
 
 }
