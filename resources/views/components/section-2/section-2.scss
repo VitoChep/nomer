@@ -1,13 +1,22 @@
 .section-2 {
     .main-wrapper {
-        margin-top: 127px;
+        margin-top: 80px;
+
+        @media (min-width: 768px) {
+            margin-top: 127px;
+        }
     }
 
     .advantages-title {
-        font-size: 50px;
+        font-size: 30px;
         font-weight: 900;
         text-align: center;
-        margin-bottom: 77px;
+        margin-bottom: 50px;
+
+        @media(min-width: 768px){
+            font-size: 50px;
+            margin-bottom: 77px;
+        }
     }
 
     .advantages-content {
@@ -94,14 +103,8 @@
                 background-color: #ff213b;
                 bottom: -20px;
                 left: 0;
-                //background-image: linear-gradient(0deg, #ff213b 0%, #ff213b 0%);
-                //background-size: 100% 10px;
-                //background-repeat: no-repeat;
-                //background-position-y: 87%;
             }
         }
-
-
 
         .advantages-description_subtitle {
             font-family: 'Muller';
@@ -112,4 +115,3 @@
         }
     }
 }
-
