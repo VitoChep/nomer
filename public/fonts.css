@@ -37,3 +37,14 @@
     font-weight: 300;
     font-style:  normal;
 }
+
+@font-face {
+    font-family: 'Muller';
+    src:         url('/fonts/MullerRegular.eot?#iefix') format('embedded-opentype'),
+                 url('/fonts/MullerRegular.otf') format('opentype'),
+                 url('/fonts/MullerRegular.woff') format('woff'),
+                 url('/fonts/MullerRegular.ttf') format('truetype'),
+                 url('/fonts/MullerRegular.svg#MullerRegular') format('svg');
+    font-weight: 400;
+    font-style:  normal;
+}
