@@ -1,4 +1,4 @@
-<section class="section-4">
+<section id="comment" class="section-4">
     <div class="main-wrapper">
         <h2 class="section-title">Отзывы</h2>
         <div class="container">
