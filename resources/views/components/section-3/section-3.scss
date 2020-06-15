@@ -17,4 +17,49 @@
         background-color: #ffffff;
         box-shadow: 0 0 55.8px 4.2px rgba(0, 0, 0, 0.07);
     }
+
+    .cost_item-header {
+        width: 100%;
+        height: 83px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        font-size: 30px;
+        line-height: 28px;
+        color: #ffffff;
+        font-weight: 900;
+
+        background-color: #172c42;
+    }
+
+    .cost_content-points {
+        min-height: 250px;
+        padding: 40px 40px 0 50px;
+        border-bottom: 1px solid #e2e2e2;
+
+        .cost_content-point {
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+
+            &:not(:last-of-type) {
+                margin-bottom: 20px;
+            }
+        }
+
+        .cost_point-image {
+            width: 31px;
+            height: 31px;
+            margin-right: 18px;
+        }
+
+        .cost_point-text {
+            font-family: 'Muller';
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 300;
+            color: #000000;
+        }
+    }
 }
