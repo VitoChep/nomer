@@ -3,7 +3,18 @@
         margin-top: 60px;
     }
 
-    .swiper-wrapper{
+    .swiper-wrapper {
 
+    }
+
+    .comment-image_wrap {
+
+    }
+
+    .comment-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
     }
 }

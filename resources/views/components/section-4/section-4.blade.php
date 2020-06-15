@@ -6,17 +6,17 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="comment-image_wrap">
-                                <img src="/images/comment1.png" alt="comment1">
+                                <img class="comment-image" src="/images/comment1.png" alt="comment1">
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="comment-image_wrap">
-                                <img src="/images/comment2.png" alt="comment2">
+                                <img class="comment-image" src="/images/comment2.png" alt="comment2">
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="comment-image_wrap">
-                                <img src="/images/comment3.png" alt="comment3">
+                                <img class="comment-image" src="/images/comment3.png" alt="comment3">
                             </div>
                         </div>
                     </div>
