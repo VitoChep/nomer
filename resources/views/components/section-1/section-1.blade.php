@@ -1,18 +1,18 @@
-<section class="section-1">
+<section id="management" class="section-1">
     @include('components.header.header')
 
     <div class="background-wrapper">
         <div class="background-image">
             <div class="main-wrapper">
                 <div class="management container">
-                    <div class="management-buttons">
+                    <div class="management-menu">
                         <a href="#cost" class="management-btn">
                             <span>Стоимость</span>
                         </a>
                         <a href="#advantages" class="management-btn">
                             <span>Законность</span>
                         </a>
-                        <a href="#" class="management-btn mod-active">
+                        <a href="#management" class="management-btn mod-active">
                             <span>Доставка и оплата</span>
                         </a>
                         <a href="#comment" class="management-btn">

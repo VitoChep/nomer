@@ -48,3 +48,13 @@
     font-weight: 400;
     font-style:  normal;
 }
+
+@font-face {
+    font-family: 'Muller';
+    src: url('/fonts/MullerBlack.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/MullerBlack.woff') format('woff'),
+         url('/fonts/MullerBlack.ttf')  format('truetype'),
+         url('/fonts/MullerBlack.svg#MullerBlack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}

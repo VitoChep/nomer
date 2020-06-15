@@ -25,6 +25,11 @@
                     </div>
                 </div>
 
+                <div class="price-wrapper">
+                    <p class="price-item_before">399 грн</p>
+                    <p class="price-item_after"><span class="price-item_number">299 </span>грн</p>
+                </div>
+
                 @include('components.button-send.button-send')
             </div>
 
@@ -49,6 +54,11 @@
                         <p class="cost_point-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do&nbsp;eiusmod
                             tempor</p>
                     </div>
+                </div>
+
+                <div class="price-wrapper">
+                    <p class="price-item_before">599 грн</p>
+                    <p class="price-item_after"><span class="price-item_number">499 </span>грн</p>
                 </div>
 
                 @include('components.button-send.button-send')
