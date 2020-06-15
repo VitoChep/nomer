@@ -9,28 +9,47 @@
 }
 
 .footer-logo {
-    width: 204px;
-    height: 28px;
+    width: 150px;
+    height: 21px;
+
+    @media(min-width: 600px){
+        width: 204px;
+        height: 28px;
+    }
 }
 
 
 .footer-button_up {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     cursor: pointer;
 
+    @media(min-width: 600px){
+        align-items: flex-start;
+    }
+
     span {
-        font-size: 24px;
+        font-size: 20px;
         font-weight: 400;
-        color: white;
-        margin-right: 18px;
+        color: #ffffff;
+        margin-right: 14px;
+
+        @media(min-width: 600px){
+            font-size: 24px;
+            margin-right: 18px;
+        }
     }
 
 
     .arrow-up {
-        width: 17px;
-        height: 24px;
-        fill: white;
+        width: 15px;
+        height: 18px;
+        fill: #ffffff;
+
+        @media(min-width: 600px){
+            width: 17px;
+            height: 24px;
+        }
     }
 }
 

@@ -25,13 +25,10 @@
         align-items: center;
         justify-content: flex-start;
         max-width: fit-content;
-        margin-bottom: 35px;
+        margin-bottom: 60px;
 
-        @media(min-width: 768px) {
-            margin-bottom: 60px;
-        }
         @media(min-width: 1200px) {
-            margin-bottom: 134px;
+            margin-bottom: 135px;
         }
 
         .management-btn {
@@ -77,9 +74,15 @@
     }
 
     .management-description {
-        width: 60%;
-        color: #000000;
-        margin-right: 30px;
+        display: none;
+
+        @media(min-width: 600px) {
+            display: block;
+            width: 60%;
+            color: #000000;
+            margin-right: 30px;
+        }
+
     }
 
     .management-description-title {
@@ -99,7 +102,6 @@
             line-height: 90px;
             margin-bottom: 48px;
         }
-
 
 
         & span {
@@ -125,9 +127,13 @@
     }
 
     .management-forms {
-        width: 40%;
-        max-width: 400px;
-        min-width: 300px;
+        width: 100%;
+
+        @media(min-width: 600px) {
+            width: 40%;
+            max-width: 400px;
+            min-width: 300px;
+        }
     }
 
     .management-form-item {
