@@ -46,9 +46,7 @@
                                 <input class="form-item_input" type="text" placeholder="Ваши номера">
                             </div>
 
-                            <div class="management-button">
-                                <span>Заказать</span>
-                            </div>
+                            @include('components.button-send.button-send')
                         </div>
                     </div>
                 </div>

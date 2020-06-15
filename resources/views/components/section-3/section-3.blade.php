@@ -24,6 +24,8 @@
                         <p class="cost_point-text">Lorem ipsum dolor sit amet, consectetur</p>
                     </div>
                 </div>
+
+                @include('components.button-send.button-send')
             </div>
 
             <div class="cost-content_item">
@@ -48,6 +50,8 @@
                             tempor</p>
                     </div>
                 </div>
+
+                @include('components.button-send.button-send')
             </div>
         </div>
     </div>
