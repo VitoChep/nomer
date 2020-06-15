@@ -11,25 +11,25 @@
         justify-content: space-between;
         margin: auto;
 
-        @media(min-width: 1200px){
+        @media(min-width: 1200px) {
             max-width: 100%;
         }
     }
 
-    .swiper-container{
+    .swiper-container {
         margin-left: -20px;
         margin-right: -20px;
 
-        @media(min-width: 1200px){
+        @media(min-width: 1200px) {
             width: 100%;
             margin-left: 0;
             margin-right: 0;
         }
     }
 
-    .swiper-wrapper{
+    .swiper-wrapper {
 
-        @media(min-width: 1200px){
+        @media(min-width: 1200px) {
             justify-content: space-between;
         }
     }
@@ -42,8 +42,59 @@
         }
     }
 
-    .comment-image_wrap {
+    .slide-btn {
+        display: none;
 
+        @media(min-width: 600px) {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            width: 59px;
+            height: 59px;
+
+            border-radius: 50%;
+            background-color: #ffffff;
+            box-shadow: 0 0 28.5px 1.5px rgba(23, 44, 66, 0.1);
+
+            outline: none;
+            background: none;
+        }
+
+        &.left {
+
+            @media(min-width: 600px){
+                left: -100px;
+            }
+
+            @media(min-width: 1024px){
+                left: -158px;
+            }
+        }
+
+        &.right {
+            @media(min-width: 600px){
+                left: auto;
+                right: -100px;
+            }
+            @media(min-width: 1024px){
+                right: -158px;
+            }
+        }
+
+        .swiper-arrow_left, .swiper-arrow_right {
+            width: 15px;
+            height: 25px;
+            fill: #000000;
+        }
+
+        .swiper-arrow_left {
+            transform: rotateZ(90deg);
+        }
+
+        .swiper-arrow_right {
+            transform: rotateZ(-90deg);
+        }
     }
 
     .comment-image {
@@ -52,5 +103,8 @@
         height: 100%;
         object-fit: cover;
         object-position: center;
+        box-shadow: 0 36px 4px rgba(23, 44, 66, 0.1);
     }
 }
+
+

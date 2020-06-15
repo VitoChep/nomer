@@ -2,7 +2,14 @@
     <div class="main-wrapper">
         <div class="container">
             <div class="comment-content">
+                <div class="swiper-button-prev slide-btn left">
+                    <svg class="swiper-arrow_left"><use xlink:href="#icon-arrow_shot"></use></svg>
+                </div>
+                <div class="swiper-button-next slide-btn right">
+                    <svg class="swiper-arrow_right"><use xlink:href="#icon-arrow_shot"></use></svg>
+                </div>
                 <div class="swiper-container">
+
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="comment-image_wrap">
@@ -19,6 +26,7 @@
                                 <img class="comment-image" src="/images/comment3.png" alt="comment3">
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>

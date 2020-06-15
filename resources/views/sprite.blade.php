@@ -5,4 +5,11 @@
         </svg>
     </symbol>
 
+    <symbol id="icon-arrow_shot" viewBox="0 0 22.8 14.2">
+        <svg>
+            <path d="M2.8 0l8.6 8.5L20 0l2.8 2.8-11.4 11.4L0 2.8z"/>
+        </svg>
+
+    </symbol>
+
 </svg>

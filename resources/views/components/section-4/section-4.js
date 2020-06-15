@@ -9,6 +9,11 @@ function initSwiper() {
         loop: true,
         paginationClickable: true,
 
+        navigation: {
+            nextEl: '.comment-content .swiper-button-next',
+            prevEl: '.comment-content .swiper-button-prev',
+        },
+
         // pagination: {
         //     el: '.comment-content .swiper-container',
         //     clickable: true,
