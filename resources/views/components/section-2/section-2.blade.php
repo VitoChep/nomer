@@ -1,7 +1,7 @@
 <section class="section-2">
     <div class="main-wrapper">
         <div class="advantages container">
-            <h2 class="advantages-title">Преимущества</h2>
+            <h2 class="section-title">Преимущества</h2>
             <div class="advantages-content">
                 <div class="advantages-image_wrap">
                     <div class="wrap-relative">

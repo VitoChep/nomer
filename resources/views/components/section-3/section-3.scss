@@ -1,0 +1,20 @@
+.section-3 {
+
+    .container {
+        max-width: 950px;
+    }
+
+    .cost-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .cost-content_item {
+        width: 450px;
+        height: 568px;
+
+        background-color: #ffffff;
+        box-shadow: 0 0 55.8px 4.2px rgba(0, 0, 0, 0.07);
+    }
+}

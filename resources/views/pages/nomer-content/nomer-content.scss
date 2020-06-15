@@ -1,19 +1,33 @@
-.main-wrapper{
+.main-wrapper {
     padding: 0 20px;
 
-    &.mod-color{
+    &.mod-color {
         background-color: #243043;
     }
 
-    @media(min-width: 1440px){
+    @media(min-width: 1440px) {
         padding: 0;
     }
 
 }
-.container{
+
+.container {
     max-width: 1396px;
     margin: 0 auto;
 }
+
+    .section-title {
+        font-size: 30px;
+        font-weight: 900;
+        text-align: center;
+        margin-bottom: 50px;
+
+        @media(min-width: 768px){
+            font-size: 50px;
+            margin-bottom: 61px;
+        }
+    }
+
 
 
 @import "../../components/section-1/section-1";
