@@ -1,4 +1,4 @@
-<section class="section-2">
+<section id="advantages" class="section-2">
     <div class="main-wrapper">
         <div class="advantages container">
             <h2 class="section-title">Преимущества</h2>

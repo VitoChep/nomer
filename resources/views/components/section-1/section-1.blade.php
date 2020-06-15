@@ -6,13 +6,13 @@
             <div class="main-wrapper">
                 <div class="management container">
                     <div class="management-buttons">
-                        <a href="#" class="management-btn">
+                        <a href="#cost" class="management-btn">
                             <span>Стоимость</span>
                         </a>
-                        <a href="#" class="management-btn">
+                        <a href="#advantages" class="management-btn">
                             <span>Законность</span>
                         </a>
-                        <a href="#" class="management-btn">
+                        <a href="#" class="management-btn mod-active">
                             <span>Доставка и оплата</span>
                         </a>
                         <a href="#comment" class="management-btn">

@@ -1,4 +1,4 @@
-<section class="section-3">
+<section id="cost" class="section-3">
     <div class="main-wrapper">
         <h2 class="section-title">Стоимость</h2>
         <div class="cost-content container">
