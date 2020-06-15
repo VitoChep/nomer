@@ -26,7 +26,8 @@
                                 <span>Lorem ipsum</span>
                                 dolor sit amet, consectetur adipiscing</h1>
 
-                            <p class="management-description-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do&nbsp;eiusmod tempor
+                            <p class="management-description-subtitle">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do&nbsp;eiusmod tempor
                                 incididunt ut&nbsp;labore et&nbsp;dolore magna aliqua. Quis ipsum suspendisse ultrices
                                 gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
                         </div>
@@ -41,8 +42,12 @@
                                 <input class="form-item_input" type="text" placeholder="Телефон">
                             </div>
                             <div class="management-form-item">
-                                <span  class="form-item_title">Ваши номера</span>
+                                <span class="form-item_title">Ваши номера</span>
                                 <input class="form-item_input" type="text" placeholder="Ваши номера">
+                            </div>
+
+                            <div class="management-button">
+                                <span>Заказать</span>
                             </div>
                         </div>
                     </div>
