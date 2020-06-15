@@ -51,6 +51,8 @@
             cursor: pointer;
             text-decoration: none;
 
+            color: black;
+
             &:not(:last-of-type) {
                 margin-right: 15px;
             }
