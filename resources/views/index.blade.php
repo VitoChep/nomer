@@ -19,6 +19,7 @@
     @include('components.section-2.section-2')
     @include('components.section-3.section-3')
     @include('components.section-4.section-4')
+    @include('components.feedback.feedback')
 </main>
 
 @include('components.footer.footer')

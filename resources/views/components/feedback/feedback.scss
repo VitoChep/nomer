@@ -1,0 +1,81 @@
+.feedback {
+    width: 794px;
+    height: 665px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("/images/confetti.png");
+
+    .feedback-check {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 105px;
+        height: 105px;
+        border-radius: 50%;
+        margin: 65px auto 80px;
+
+        background-color: #ff213b;
+    }
+
+    .feedback-check_image {
+        width: 70px;
+        height: 61px;
+    }
+
+    .feedback-text {
+        width: 100%;
+        text-align: center;
+        color: #161616;
+        margin-bottom: 56px;
+    }
+
+    .feedback-text_title {
+        font-size: 41px;
+        font-weight: 800;
+        margin-bottom: 25px;
+    }
+
+    .feedback-text_subtitle {
+        font-family: "Muller";
+        font-size: 22px;
+        font-weight: 300;
+    }
+
+    .feedback-networks {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .network-item {
+        width: 63px;
+        height: 63px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #172c42;
+        border-radius: 50%;
+
+        &:not(:last-of-type) {
+            margin-right: 25px;
+        }
+
+        .facebook {
+            width: 17px;
+            height: 32px;
+        }
+
+        .instagram {
+            width: 26px;
+            height: 26px;
+        }
+    }
+
+}
