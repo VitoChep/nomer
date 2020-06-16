@@ -9,6 +9,6 @@
                 <input class="request-form_input" type="text" placeholder="Ваши номера">
         </div>
 
-        @include('components.button-send.button-send')
+        @include('components.button-send.button-send', ['mod' => 'form_4']);
     </div>
 </div>

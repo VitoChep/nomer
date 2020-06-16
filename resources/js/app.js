@@ -8,6 +8,7 @@ require('../views/components/footer/footer');
 require('../views/components/section-1/section-1');
 require('../views/components/section-3/section-3');
 require('../views/components/section-4/section-4');
+require('../views/components/form-request/form-request');
 
 $('.cross-form').on('click', function (e) {
     $('.modal-wrap').removeClass('modal-active');
