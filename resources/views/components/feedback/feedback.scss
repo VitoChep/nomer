@@ -11,6 +11,8 @@
     background-repeat: no-repeat;
     background-image: url("/images/confetti.png");
 
+    margin: 0 auto;
+
     .feedback-check {
         display: flex;
         align-items: center;
@@ -76,6 +78,8 @@
             width: 26px;
             height: 26px;
         }
+
+
     }
 
 }

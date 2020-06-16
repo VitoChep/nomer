@@ -20,6 +20,7 @@
     @include('components.section-3.section-3')
     @include('components.section-4.section-4')
     @include('components.feedback.feedback')
+    @include('components.form-request.form-request')
 </main>
 
 @include('components.footer.footer')

@@ -1,0 +1,63 @@
+.form-request {
+    position: relative;
+    max-width: 674px;
+    height: 623px;
+    margin: 0 auto;
+    box-shadow: 0 0 28.5px 30px rgba(23, 44, 66, 0.1);
+    padding: 65px 75px;
+
+    .request-content {
+
+    }
+
+    .form-request_title {
+        font-family: 'Montserrat';
+        font-size: 32px;
+        color: #161616;
+        font-weight: 800;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .cross-form{
+        position: absolute;
+        top: 74px;
+        right: 48px;
+        width: 21px;
+        height: 21px;
+        fill: #161616;
+        stroke: #161616;
+    }
+
+    .request-form_wrapper {
+
+    }
+
+    .request-form_input {
+        font-family: "Muller";
+        width: 100%;
+        height: 63px;
+        font-size: 18px;
+        font-weight: 400;
+        color: #000000;
+        padding: 20px 30px;
+        background-color: transparent;
+        border: 1px solid #d9d9d9;
+
+        &::placeholder {
+            font-size: 18px;
+            font-weight: 400;
+            color: #000000;
+        }
+
+        &:not(:last-of-type){
+            margin-bottom: 18px;
+        }
+    }
+
+    .button-send{
+        max-width: 344px;
+        margin: 0 auto;
+        margin-top: 52px;
+    }
+}
