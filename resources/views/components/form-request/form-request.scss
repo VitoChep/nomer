@@ -1,7 +1,7 @@
 .form-request {
 
     position: absolute;
-    max-width: 674px;
+    width: 674px;
     height: 623px;
     top: 50%;
     left: 50%;
@@ -46,12 +46,12 @@
             color: #000000;
         }
 
-        &:not(:last-of-type){
+        &:not(:last-of-type) {
             margin-bottom: 18px;
         }
     }
 
-    .button-send{
+    .button-send {
         max-width: 344px;
         margin: 0 auto;
         margin-top: 52px;
