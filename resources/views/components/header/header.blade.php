@@ -9,6 +9,7 @@
                 <div class="header-order">
                     <span>Заказать</span>
                 </div>
+                @include('components.header-popup_menu.header-popup_menu')
             </div>
         </div>
     </div>

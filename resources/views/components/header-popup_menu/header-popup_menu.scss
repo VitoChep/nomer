@@ -1,0 +1,39 @@
+.popup-menu {
+    display: none;
+
+    &.popup-active{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 2;
+        max-width: 100%;
+        padding: 20px;
+        background: #ffffff;
+
+        @media(min-width: 600px){
+            max-width: 350px;
+        }
+    }
+
+    .popup-menu_input {
+        font-family: "Muller";
+        width: 100%;
+        height: 40px;
+        font-size: 14px;
+        font-weight: 400;
+        color: #000000;
+        padding: 20px 30px;
+        background-color: transparent;
+        border: 1px solid #d9d9d9;
+        margin-bottom: 20px;
+    }
+
+    .header-order{
+        width: 100%;
+        max-width: 100% !important;
+        min-width: 100% !important;
+        height: 50px;
+    }
+
+}
