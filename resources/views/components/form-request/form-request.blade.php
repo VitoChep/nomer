@@ -1,8 +1,7 @@
 <div class="form-request">
     <h3 class="form-request_title">Заявка</h3>
-    <svg class="cross-form">
-        <use xlink:href="#crossLight"></use>
-    </svg>
+
+    @include('components.cross-form.cross-form')
     <div class="request-content">
         <div class="request-form_wrapper">
                 <input class="request-form_input" type="text" placeholder="Ваше имя">

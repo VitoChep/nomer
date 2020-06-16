@@ -1,5 +1,6 @@
 .feedback {
-    width: 794px;
+    position: relative;
+    max-width: 794px;
     height: 665px;
 
     display: flex;
@@ -10,8 +11,12 @@
     background-position: center;
     background-repeat: no-repeat;
     background-image: url("/images/confetti.png");
-
     margin: 0 auto;
+
+    .cross-form{
+        top: 122px;
+        right: 110px;
+    }
 
     .feedback-check {
         display: flex;

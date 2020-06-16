@@ -1,4 +1,5 @@
 <div class="feedback">
+    @include('components.cross-form.cross-form')
     <div class="feedback-content">
         <div class="feedback-check">
             <img class="feedback-check_image" src="/images/check.png" alt="check">
