@@ -49,6 +49,13 @@
         &:not(:last-of-type) {
             margin-bottom: 18px;
         }
+
+        &.mod-error{
+            &::placeholder {
+                color: rgb(255, 33, 59);
+                transition: 0.3s all;
+            }
+        }
     }
 
     .button-send {

@@ -61,7 +61,7 @@
                     <p class="price-item_after"><span class="price-item_number">499 </span>грн</p>
                 </div>
 
-                @include('components.button-send.button-send',  ['mod' => 'form_3'])
+                @include('components.button-send.button-send',  ['mod' => 'form_2'])
             </div>
 
             <div class="modal-wrap mod-section_3">
