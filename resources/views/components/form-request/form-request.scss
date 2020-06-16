@@ -1,9 +1,15 @@
 .form-request {
-    position: relative;
+
+    position: absolute;
     max-width: 674px;
     height: 623px;
-    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    transform: translate(-50%, -50%);
+
     box-shadow: 0 0 28.5px 30px rgba(23, 44, 66, 0.1);
+    background: #ffffff;
     padding: 65px 75px;
 
     .request-content {

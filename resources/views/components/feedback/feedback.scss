@@ -1,8 +1,12 @@
 .feedback {
-    position: relative;
-    max-width: 794px;
-    height: 665px;
 
+    position: absolute;
+    width: 794px;
+    height: 665px;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    transform: translate(-50%, -50%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11,7 +15,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-image: url("/images/confetti.png");
-    margin: 0 auto;
 
     .cross-form{
         top: 122px;

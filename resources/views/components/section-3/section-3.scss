@@ -99,14 +99,15 @@
     }
 
     .button-send {
-        position: absolute;
-        width: 325px;
-        height: 66px;
-        margin-top: 0;
-        box-shadow: 0 13px 36.12px 6.88px rgba(255, 33, 59, 0.25);
-        transform: translate(20%, 50%);
-        bottom: 0;
 
-
+        &.form_2, &.form_3{
+            position: absolute;
+            width: 325px;
+            height: 66px;
+            margin-top: 0;
+            box-shadow: 0 13px 36.12px 6.88px rgba(255, 33, 59, 0.25);
+            transform: translate(20%, 50%);
+            bottom: 0;
+        }
     }
 }

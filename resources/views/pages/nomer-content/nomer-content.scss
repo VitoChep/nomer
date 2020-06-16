@@ -28,6 +28,37 @@
         }
     }
 
+.modal-wrap{
+
+    display: none;
+
+    @media(min-width: 768px){
+        &.modal-active{
+            display: block;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 999;
+        }
+    }
+}
+
+.modal-blackout {
+
+    @media(min-width: 768px) {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+
+        background: rgba(33, 51, 72, 0.20);
+    }
+}
+
 
 
 @import "../../components/section-1/section-1";

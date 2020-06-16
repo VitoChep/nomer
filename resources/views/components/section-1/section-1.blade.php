@@ -46,8 +46,13 @@
                                 <input class="form-item_input" type="text" placeholder="Ваши номера">
                             </div>
 
-                            @include('components.button-send.button-send')
+                            @include('components.button-send.button-send', ['mod' => 'form_1'])
                         </div>
+                    </div>
+
+                    <div class="modal-wrap mod-section_1">
+                        @include('components.feedback.feedback')
+                        <div class="modal-blackout"></div>
                     </div>
                 </div>
             </div>
