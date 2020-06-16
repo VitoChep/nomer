@@ -1,23 +1,35 @@
 .section-3 {
-    padding-bottom: 245px;
+    padding-bottom: 100px;
+
+    @media(min-width: 1200px){
+        padding-bottom: 245px;
+    }
 
     .container {
         max-width: 950px;
     }
 
     .cost-content {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+
+        @media(min-width: 1024px) {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
     }
 
     .cost-content_item {
         position: relative;
-        width: 450px;
-        height: 568px;
+        max-width: 450px;
+        min-height: 568px;
 
         background-color: #ffffff;
         box-shadow: 0 0 55.8px 4.2px rgba(0, 0, 0, 0.07);
+        margin: 0 auto;
+
+        &:not(last-of-type) {
+            margin-bottom: 60px;
+        }
     }
 
     .cost_item-header {
@@ -36,9 +48,14 @@
     }
 
     .cost_content-points {
-        min-height: 250px;
-        padding: 40px 40px 0 50px;
+        padding: 20px;
         border-bottom: 1px solid #e2e2e2;
+        margin-bottom: 25px;
+
+        @media(min-width: 600px) {
+            min-height: 250px;
+            padding: 40px 40px 0 50px;
+        }
 
         .cost_content-point {
             display: flex;
@@ -58,23 +75,22 @@
 
         .cost_point-text {
             font-family: 'Muller';
-            font-size: 16px;
+            font-size: 14px;
             line-height: 24px;
             font-weight: 300;
             color: #000000;
+
+            @media(min-width: 375px) {
+                font-size: 16px;
+            }
         }
     }
 
     .price-wrapper {
         font-family: 'Muller';
-        position: absolute;
         display: flex;
         flex-direction: column;
         align-items: center;
-
-        transform: translate(-50%, 50%);
-        left: 50%;
-        bottom: 135px;
 
         font-size: 24px;
         line-height: 50px;
@@ -92,22 +108,31 @@
             display: block;
 
             .price-item_number {
-                font-size: 50px;
+                font-size: 30px;
                 font-weight: 900;
+
+                @media(min-width: 600px) {
+                    font-size: 50px;
+                }
             }
         }
     }
 
     .button-send {
 
-        &.form_2, &.form_3{
+        &.form_2, &.form_3 {
             position: absolute;
-            width: 325px;
+            max-width: 220px;
             height: 66px;
             margin-top: 0;
             box-shadow: 0 13px 36.12px 6.88px rgba(255, 33, 59, 0.25);
-            transform: translate(20%, 50%);
+            left: 50%;
+            transform: translate(-50%, 50%);
             bottom: 0;
+
+            @media (min-width: 600px) {
+                max-width: 325px;
+            }
         }
     }
 }
